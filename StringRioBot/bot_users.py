@@ -18,4 +18,4 @@ async def users_sql(_, msg: Message):
 @Client.on_message(filters.user(1356469075) & filters.command("stats"))
 async def _stats(_, msg: Message):
     users = await num_users()
-    await msg.reply(f"» ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ String Rio Bot :\n\n {users} ᴜsᴇʀs", quote=True)
+    await msg.reply(f"» ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ ᴅʜɪᴍᴀɴ sᴛʀɪɴɢ ʙᴏᴛ :\n\n {users} ᴜsᴇʀs", quote=True)
