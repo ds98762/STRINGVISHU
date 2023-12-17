@@ -2,21 +2,21 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("Gᴇɴᴇʀᴀᴛᴇ Sᴇssɪᴏɴ", callback_data="generate")]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("❣️ sᴜᴩᴩᴏʀᴛ ❣️", url="https://t.me/RioGroupsupport"),
-         InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/fckualot"),
+        [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ | 🌛", url="https://t.me/PUNJABI_HINDI_CHAT"),
+         InlineKeyboardButton("Mʀ. Dʜɪᴍᴀɴ | 🌛", url="https://t.me/I_DXLVIR"),
         ],
     ]
 
     START = """
 Hᴇʏ {},
 Tʜɪs ɪs {},
-Aɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇᴅ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-Sᴏᴜʀᴄᴇ : [ɢɪᴛʜᴜʙ](https://github.com/rioprojectx/GenerateString)
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [Rio](https://t.me/fckualot) !
+sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+Sᴏᴜʀᴄᴇ : [Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Gᴇᴛ](https://t.me/I_DXLVIR)
+Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [Dʜɪᴍᴀɴ](https://t.me/I_DXLVIR) !
     """
